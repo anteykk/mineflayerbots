@@ -20,7 +20,7 @@ let bot; // Объект Mineflayer бота
 let captcha; // Объект плагина FlayerCaptcha
 let switchSucces = true; // Флаг, управляющий попытками разгадать начальную капчу (BotFilter)
 let log = false; // Флаг, становится true, когда BotFilter пройден успешно
-let commonPasswordsIndex = 0; // Индекс пароля который сейчас перебираеться из массива всех паролей к текущему аккаунту
+
 
 // --------------------------------------------------------------------------------
 // ЛОГИКА ОПРЕДЕЛЕНИЯ НАПРАВЛЕНИЯ ВЗГЛЯДА
@@ -98,8 +98,8 @@ function joni3(indexPass) {
                 socks.createConnection({
                     proxy: {
 
-                        host: `23.26.71.145`,
-                        port: 5628,
+                        host: `23.95.150.145`,
+                        port: 6114,
                         type: 5, // тип прокси
                         userId: `pixchpkh`,
                         password: `rj083rotb85p`
@@ -192,11 +192,7 @@ function joni3(indexPass) {
 
             console.log(message.toAnsi()) // Вывод сообщения в консоль с форматированием
 
-            // Если получено сообщение об успешном прохождении BotFilter
-            if (message == `BotFilter >> Проверка пройдена, приятной игры`) {
-                log = true; // Устанавливаем флаг успешного прохождения
-                console.log(`log = ${log}`)
-            }
+
 
             // Если получено сообщение о необходимости регистрации
 
@@ -212,6 +208,10 @@ function joni3(indexPass) {
                 
 
                 bot.chat(`/login ${commonPasswords[indexPass]}`);
+                bot.chat(`/login ${commonPasswords[indexPass]}`);
+                bot.chat(`/login ${commonPasswords[indexPass]}`);
+                bot.chat(`/login ${commonPasswords[indexPass]}`);
+            
                 console.log(`Пробую: ${commonPasswords[indexPass]}`);
                 indexPass++
 
