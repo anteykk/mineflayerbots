@@ -1,0 +1,31 @@
+{
+  "name": "m3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "crypto": "^1.0.1",
+    "flayercaptcha": "^1.0.6",
+    "get-port": "^7.1.0",
+    "glob": "^11.0.3",
+    "mineflayer": "^4.32.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-collectblock": "^1.6.0",
+    "mineflayer-crafting-util": "^0.2.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-web-inventory": "^1.8.5",
+    "node-canvas-webgl": "^0.3.0",
+    "path": "^0.12.7",
+    "pathfinder": "^0.3.0-1",
+    "pngjs": "^7.0.0",
+    "prismarine-viewer": "^1.33.0",
+    "three": "^0.127.0",
+    "vec3": "^0.1.10"
+  }
+}
