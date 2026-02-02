@@ -1,0 +1,28 @@
+{
+  "name": "m3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node testindex.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.4",
+    "fs": "^0.0.1-security",
+    "get-port": "^7.1.0",
+    "http": "^0.0.1-security",
+    "mineflayer": "^4.32.0",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-collectblock": "^1.6.0",
+    "mineflayer-crafting-util": "^0.2.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "path": "^0.12.7",
+    "pathfinder": "^0.3.0-1",
+    "socks": "^2.8.7",
+    "vec3": "^0.1.10"
+  }
+}
